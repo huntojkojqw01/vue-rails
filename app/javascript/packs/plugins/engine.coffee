@@ -17,7 +17,7 @@ import Auth from "./auth"
 class Engine
   install: (Vue, options) ->
     locale       = options.locale || "ja"
-    @apiEndpoint = options.apiEndpoint || "http://localhost:3000/api"
+    @apiEndpoint = options.apiEndpoint || "/api"
 
     Vue.use(VueRouter)
     @router = new VueRouter(
