@@ -17,8 +17,8 @@
     methods:
       performCommand: (command) ->
         switch command
-          when "logout"            
-            @$auth.logout()
+          when "logout"                      
+            @$auth.logout()            
   }
 </script>
 

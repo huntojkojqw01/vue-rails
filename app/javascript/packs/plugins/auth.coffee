@@ -18,8 +18,9 @@ class Auth
     auth = JSON.stringify(type: type, token: data.jwt, name: data.name)
     localStorage.setItem(@key, auth)
 
-  logout: ->
+  logout: ->    
     localStorage.removeItem(@key)
+    @router.push(name: "login")
 
   token: ->
     @_auth()?.token
