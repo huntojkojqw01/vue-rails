@@ -11,6 +11,7 @@ en:
     Password: Password
     Save: Save
     Search: Search
+    Rate: Rate
   messages:
     deleted: Successfully deleted
     logged_in: Successfully logged in
@@ -22,3 +23,8 @@ en:
         title: Edit Influencer
       list:
         title: Influencer List
+    items:
+      edit:
+        title: Item Edit
+      list:
+        title: Item List

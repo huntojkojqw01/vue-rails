@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     namespace :admin do
       resource :sessions, only: [:create, :destroy]
       resources :influencers, only: [:index, :show, :create, :update, :destroy]
+      resources :items, only: [:index, :show, :create, :update, :destroy]
     end
 
     namespace :influencer do

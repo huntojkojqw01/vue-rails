@@ -3,6 +3,7 @@ import Header      from "../header.vue"
 import Footer      from "../footer.vue"
 import Login       from "./login.vue"
 import Influencers from "./influencers/routes"
+import  Items from "./items/routes"
 
 export default [
   {
@@ -14,6 +15,12 @@ export default [
     path:       "/influencers",
     components: { default: Placeholder, header: Header, footer: Footer },
     children:   Influencers,
+    meta:       { auth: "admin" }
+  },
+  {
+    path:       "/items",
+    components: { default: Placeholder, header: Header, footer: Footer },
+    children:   Items,
     meta:       { auth: "admin" }
   }
 ]

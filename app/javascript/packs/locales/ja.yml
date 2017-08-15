@@ -11,6 +11,7 @@ ja:
     Password: パスワード
     Save: 保存
     Search: 検索
+    Rate: レート
   messages:
     deleted: 削除しました
     logged_in: ログインしました
@@ -22,3 +23,8 @@ ja:
         title: インフルエンサー編集
       list:
         title: インフルエンサー一覧
+    items:
+      edit:
+        title: アイテム編集
+      list:
+        title: アイテム一覧

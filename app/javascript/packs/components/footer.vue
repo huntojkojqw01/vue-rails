@@ -6,7 +6,7 @@
 <script lang="coffee">
   export default {
     data: ->
-      footer: "footer"
+      footer: "Vue Sample App"
   }
 </script>
 
